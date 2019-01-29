@@ -19,14 +19,14 @@ public class Car {
         double milegePassed = 2000;
         
         public void printVariables(){
-            System.out.println(maxSpeed);
-            System.out.println(weight);
-            System.out.println(isTheCarOn);
-            System.out.println(model);
-            System.out.println(maxFuel);
-            System.out.println(currentFuel);
-            System.out.println(consumption);
-            System.out.println(milegePassed);
+            System.out.println("Maksimalna brzina: " + maxSpeed);
+            System.out.println("Tezina :" + weight);
+            System.out.println("Da li je upaljen: " + isTheCarOn);
+            System.out.println("Model: " + model);
+            System.out.println("Maksimalna kolicina ulja: " + maxFuel);
+            System.out.println("Trenutno gorivo: " + currentFuel);
+            System.out.println("Potrosnja:" + consumption);
+            System.out.println("Predjena kilometraza: " + milegePassed);
             
 
 
